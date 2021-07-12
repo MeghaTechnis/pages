@@ -1,0 +1,43 @@
+
+body,
+html
+{  
+width: 100%;
+height: 70%;
+ background: url(Mumbai.jpg) no-repeat center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+h1{
+  font-family: Tangerine;
+  font-size: 75px;
+  color: rgb(1, 255, 213);
+  text-align: center; 
+}
+
+.buffer{
+  height: 10rem;
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+ text-transform: uppercase;
+}
+
+.btn-primary{
+ background-color: rgb(79, 158, 248); 
+ border-color: aqua;
+}
+.btn-primary:hover{
+  background-color: rgb(119, 2, 252);
+  border-color: cadetblue;
+  border-width: 4px;
+}
+.btn-xl{
+  padding: 1rem 2rem;
+  position: fixed;
+  bottom: -1px;
+}
